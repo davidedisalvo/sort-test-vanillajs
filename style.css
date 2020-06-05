@@ -25,8 +25,15 @@ form div label {
   margin-bottom: 10px;
 }
 
+.inner-box img {
+  max-width: 160px;
+}
+
 #selected,
 #more {
   display: block;
   margin: 0 auto;
+}
+img {
+  max-width: 100%;
 }
