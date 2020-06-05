@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="corpo">Corpo</label>
+
+        <select style="display: block;" id="corpo" name="corpo">
+          <option value="C1">1</option>
+          <option value="C12">2</option>
+          <option value="C123">3</option>
+          <option value="C1234">4</option>
+          <option value="C12345">5</option>
+        </select>
+      </div>
+      <div>
+        <label for="acidita">Acidita</label>
+
+        <select style="display: block;" id="acidita" name="acidita">
+          <option value="A1">1</option>
+          <option value="A12">2</option>
+          <option value="A123">3</option>
+          <option value="A1234">4</option>
+          <option value="A12345">5</option>
+        </select>
+      </div>
+      <div>
+        <label for="tannico">Tannico</label>
+        <select style="display: block;" id="tannico" name="tannico">
+          <option value="T1">1</option>
+          <option value="T12">2</option>
+          <option value="T123">3</option>
+          <option value="T1234">4</option>
+          <option value="T12345">5</option>
+        </select>
+      </div>
+      <div>
+        <label for="aclol">Alcol</label>
+
+        <select style="display: block;" id="alcol" name="alcol">
+          <option value="H1">1</option>
+          <option value="H12">2</option>
+          <option value="H123">3</option>
+          <option value="H1234">4</option>
+          <option value="H12345">5</option>
+        </select>
+      </div>
+      <div>
+        <label for="dolcezza">Dolcezza</label>
+
+        <select style="display: block;" id="dolcezza" name="dolcezza">
+          <option value="D1">1</option>
+          <option value="D12">2</option>
+          <option value="D123">3</option>
+          <option value="D1234">4</option>
+          <option value="D12345">5</option>
+        </select>
+      </div>
+    </form>
+    <button id="selected">Submit</button>
+
+    <section>
+      <ul id="list"></ul>
+      <button id="more">Load more</button>
+    </section>
+  </body>
+  <script src="https://unpkg.com/string-similarity@4.0.1/umd/string-similarity.min.js"></script>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,32 @@
+li {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+form div label {
+  margin-bottom: 10px;
+}
+
+#selected,
+#more {
+  display: block;
+  margin: 0 auto;
+}
